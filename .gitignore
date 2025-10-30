@@ -1,0 +1,32 @@
+# Ambiente virtual
+venv/
+env/
+
+# Arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Banco de dados local (se estiver usando SQLite)
+db.sqlite3
+
+# Configurações locais e segredos
+.env
+*.env
+
+# Arquivos de log
+*.log
+
+# Diretórios de cache e build
+build/
+dist/
+*.egg-info/
+
+# Arquivos do VSCode, PyCharm, etc.
+.vscode/
+.idea/
+
+# Arquivos estáticos gerados (se você usar collectstatic)
+staticfiles/
+media/
