@@ -1,6 +1,7 @@
+* criar um model 
+```
 from django.db import models
 
-# Create your models here.
 class Todo(models.Model):
     title = models.CharField(max_length=100, null=False, blank=False)
     deadline = models.DateTimeField(null=True, blank=True)
@@ -8,3 +9,19 @@ class Todo(models.Model):
     
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+```
+
+* rodar o migrate
+```
+python manage.py migrate
+```
+
+* rodando o make
+```
+python manage.py makemigrations
+```
+
+* rodar o migrate novamente
+```
+python manage.py migrate
+```

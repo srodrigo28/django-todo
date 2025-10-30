@@ -76,9 +76,3 @@ pip freeze > requirements.txt
 Isso permite que outras pessoas (ou servidores) recriem seu ambiente:
 
 pip install -r requirements.txt
-
-
-#### Ref.: 
-```
-https://www.youtube.com/watch?v=MsUL3Pgofl4
-```
