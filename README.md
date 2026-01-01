@@ -1,4 +1,4 @@
-#### Cria o projeto e roda
+#### Django Frond and Back
 
 * Opcional verificar a versão do python
 ```
